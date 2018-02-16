@@ -1,0 +1,15 @@
+spring:
+  data:
+    rest:
+      baseUri:  api
+  application:
+    name: sumitid
+server:
+  port: 8086
+
+couchbase:
+  cluster:
+    bucket: sample
+    password: sample123
+    hosts:
+      -127.0.0.1
